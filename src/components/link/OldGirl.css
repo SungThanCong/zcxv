@@ -1,0 +1,51 @@
+.lover-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#lover-video{
+    display: none;
+}
+
+#lover-button{
+    width: 350px;
+    height: 70px;
+    font-size: 24px;
+    font-weight: 800;
+    cursor: pointer;
+    border: none;
+    transition: 0.5s;
+    background: url(../../img/tim.jpg);
+    color: red;
+    border-radius: 50px;
+    box-shadow: 0px 0px 20px 0px black;
+}
+
+#lover-button:hover{
+    background-color: rgba(170, 32, 32, 0.897);
+    opacity: 0.8;
+}
+
+#lover-message{
+    font-size: 10px;
+    font-weight: 800;
+    opacity: 0;
+    color: white;
+    transition: 10s;
+}
+
+#lover-message-2{
+    font-size: 50px;
+    font-weight: 800;
+    color: white;
+}
+
+.tim{
+    background: url(../../img/tim.jpg);
+    background-size: cover;
+    background-position: center;
+
+}

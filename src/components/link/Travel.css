@@ -1,0 +1,20 @@
+.travel-container{
+    background: linear-gradient(to bottom,white,rgba(255, 175, 27, 0.596));
+}
+
+.travel-place{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 48px;
+}
+
+.travel-place h1{
+    font-weight: 800;
+    transition: 0.3s;
+}
+
+.travel-place h1:hover{
+    color: red;
+}
