@@ -1,0 +1,5 @@
+.update-container{
+    background-image: url('../../img/sea.jpg');
+    height: 100vh;
+    background-size: cover;
+}
